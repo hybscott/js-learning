@@ -1,4 +1,5 @@
 import React from "react";
-export default function index({ Children }) {
-  return <>{Children}</>;
+export default function Index({ component }) {
+  const Name = component;
+  return <Name />;
 }
